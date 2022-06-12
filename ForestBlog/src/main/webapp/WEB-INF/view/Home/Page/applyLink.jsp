@@ -73,8 +73,6 @@
                                 <button class="layui-btn" lay-submit="">提交申请</button>
                             </div>
                         </form>
-
-
                     </div>
 
                     <br><br>
@@ -93,13 +91,9 @@
                         </ul>
                     </footer><!-- .entry-footer -->
 
-
                     <div class="clear"></div>
                 </div><!-- .entry-content -->
             </article><!-- #post -->
-
-
-
         </main>
         <!-- .site-main -->
     </div>
