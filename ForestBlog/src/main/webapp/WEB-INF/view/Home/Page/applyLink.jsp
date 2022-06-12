@@ -5,6 +5,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib prefix="rapid" uri="http://www.rapid-framework.org.cn/rapid" %>
 
+<%--申请友情链接页面，通过首页"申请友链"进入，填写链接相关信息--%>
+
 <rapid:override name="header-style">
     <style>
         .entry-title {
@@ -13,8 +15,6 @@
     </style>
     <link rel="stylesheet" href="/plugin/layui/css/layui.css">
 </rapid:override>
-
-<%--这个页面是友链申请页面，从主页"申请友链"进入--%>
 
 <rapid:override name="breadcrumb">
     <%--面包屑导航 start--%>
