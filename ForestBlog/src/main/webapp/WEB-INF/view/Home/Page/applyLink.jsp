@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/plugin/layui/css/layui.css">
 </rapid:override>
 
+<%--这个页面是友链申请页面，从主页"申请友链"进入--%>
 
 <rapid:override name="breadcrumb">
     <%--面包屑导航 start--%>
