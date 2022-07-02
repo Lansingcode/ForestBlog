@@ -73,8 +73,10 @@
     </where>
   </select>
 
-  <!--获取公告列表-->
-  <select id="listNotice" resultType="com.liuyanzhao.ssm.blog.entity.Notice">
+
+<!--获取公告列表-->
+<!--  <select id="listNotice" resultType="com.liuyanzhao.ssm.blog.entity.Notice">-->
+  <select id="listNotice" resultMap="BaseResultMap">
     SELECT
     <include refid="Base_Column_List"/>
     FROM  <include refid="tb"/>
@@ -85,7 +87,4 @@
     </where>
     ORDER BY notice_status ASC, notice_order DESC, notice_id ASC
   </select>
-
-
-
 </mapper>
